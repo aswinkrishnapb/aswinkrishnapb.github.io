@@ -116,9 +116,6 @@
                     <span class="level-item">4 minutes read (About 616 words)</span>
                   </div>
                 </div>
-                <h1 class="title is-3 is-size-4-mobile">
-                  <a class="link-muted" href="/2021/06/27/How-to-setup-Ninjutsu-Android-Penetration-Testing-Environment/">How to setup Ninjutsu Android Penetration Testing Environment</a>
-                </h1>
                 <div class="content">
                   <h1 id="Ninjutsu-Android-Penetration-Testing-Environment">
                     <a href="#Ninjutsu-Android-Penetration-Testing-Environment" class="headerlink" title="Ninjutsu Android Penetration Testing Environment"></a>Ninjutsu Android Penetration Testing Environment
@@ -198,36 +195,19 @@
                   <pre>
 																																	<code>Password Unlock screen : 1234
 </code>
-																																</pre>
-                  <h1 id="Download">
-                    <a href="#Download" class="headerlink" title="Download"></a>Download
-                  </h1>
-                  <p>
-                    <code>https://drive.google.com/drive/folders/1vXqGGWx5Bmen26nHQwOJRdZ8vB1s0VOg?usp=sharing</code>
-                  </p>
+
                   <p>
                     <img src="https://i.imgur.com/Kb73Icm.png" alt="Screen">
                   </p>
-                  <p>Step 1. Download MEmu-setup.exe and Android_PenetrationTesting_Environment.ova</p>
-                  <p>Step 2. Install MEmu emulator MEmu-setup.exe</p>
-                  <p>Step 3. After finishing install Memu emulator go to Desktop and open Multi-MEmu</p>
-                  <p>Step 4. Import Ninjutsu android penetration testing environment “Android_PenetrationTesting_Environment.ova”</p>
                   <p>
                     <img src="https://i.imgur.com/CXTBbwV.png" alt="Screen">
                   </p>
-                  <p>Step 5. Follow the screenshot for info on how to setup Ninjutsu Android Penetration Testing Environment</p>
-                  <h3 id="Enable-Root-Mode">
-                    <a href="#Enable-Root-Mode" class="headerlink" title="Enable Root Mode :"></a>Enable Root Mode :
-                  </h3>
                   <p>
                     <img src="https://i.imgur.com/2cg4icD.png" alt="Screen">
                   </p>
                   <p>
                     <img src="https://i.imgur.com/clWjEje.png" alt="Screen">
                   </p>
-                  <h3 id="Change-NAT-DNS-to-8-8-8-8">
-                    <a href="#Change-NAT-DNS-to-8-8-8-8" class="headerlink" title="Change NAT DNS to 8.8.8.8"></a>Change NAT DNS to 8.8.8.8
-                  </h3>
                   <p>
                     <img src="https://i.imgur.com/QsEwPm3.png" alt="Screen">
                   </p>
@@ -237,41 +217,21 @@
                   <p>
                     <img src="https://i.imgur.com/tMODDoi.png" alt="Screen">
                   </p>
-                  <h3 id="Install-BusyBox">
-                    <a href="#Install-BusyBox" class="headerlink" title="Install BusyBox :"></a>Install BusyBox :
-                  </h3>
                   <p>
                     <img src="https://i.imgur.com/0ERgnWG.png" alt="Screen">
                   </p>
                   <p>
                     <img src="https://i.imgur.com/gaOVt2A.png" alt="Screen">
-                  </p>
-                  <h3 id="Install-Magisk">
-                    <a href="#Install-Magisk" class="headerlink" title="Install Magisk :"></a>Install Magisk :
-                  </h3>
-                  <p>Open Android Terminal </p>
-                  <p>Type the command below :</p>
-                  <pre>
-																																										<code>su
-cp -r /storage/emulated/0/init.d/run.sh /sdcard/Download/
-cp -r /storage/emulated/0/init.d/magisk.apk /sdcard/Download/
-sh /sdcard/Download/run.sh
-</code>
-																																									</pre>
+                  </p>																																					</pre>
                   <p>
                     <img src="https://i.imgur.com/JM0OMKg.png" alt="Screen">
                   </p>
-                  <h3 id="Install-Xposed">
-                    <a href="#Install-Xposed" class="headerlink" title="Install Xposed :"></a>Install Xposed :
-                  </h3>
                   <p>
                     <img src="https://i.imgur.com/tH3nno9.png" alt="Screen">
                   </p>
                   <p>
                     <img src="https://i.imgur.com/rxidP6K.png" alt="Screen">
                   </p>
-                  <p>Step 6. reboot Android machine</p>
-                  <p>Step 7. Open ES File Explorer</p>
                   <p>
                     <img src="https://i.imgur.com/ahZOiao.png" alt="Screen">
                   </p>
@@ -287,7 +247,6 @@ sh /sdcard/Download/run.sh
                   <p>
                     <img src="https://i.imgur.com/DIvwdtE.png" alt="Screen">
                   </p>
-                  <p>Step 9. Now disable root mode from Memu emulator and restart Android</p>
                   <p>
                     <img src="https://i.imgur.com/2dhZiqn.png" alt="Screen">
                   </p>
@@ -352,28 +311,6 @@ sh /sdcard/Download/run.sh
                    <code>adb pull /sdcard/Android/data/com.example.app c:\phone\
                    </code>
                   </pre>
-                  <h3 id="How-to-run-Frida">
-                  <a href="#How-to-run-Frida" class="headerlink" title="How to run Frida :"></a>How to run Frida :
-                  </h3>
-                  <pre>
-                   <code>cd &quot;c:\Program Files\Microvirt\MEmu\&quot;
-                   adb connect 127.0.0.1:21513
-                   adb shell &quot;/data/local/tmp/frida-server &amp;&quot;
-                   adb forward tcp:27042 tcp:27042
-                   Frida-ps -U
-                   </code>
-                  </pre>
-                  <h3 id="Paths-Memu-emulator">
-                    <a href="#Paths-Memu-emulator" class="headerlink" title="Paths Memu emulator :"></a>Paths Memu emulator :
-                  </h3>
-                  <pre>
-                    <code>/storage/emulated/0/Download
-                    /sdcard/Download/
-                    /sdcard/Pictures
-                    /sdcard/DCIM
-                    /data/data/
-                    /sdcard/Android/data
-                    </code>
                   </pre>
                   <p>If you feel like showing your love and/or appreciation for this project, then how about shouting me a coffee ☕ 😊 Buy Me A Coffee ☕</p>
                   <p>☕ Buy Me A Coffee ☕ </p>
