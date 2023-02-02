@@ -110,28 +110,37 @@
           <div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen">
             <div class="card">
               <article class="card-content article" role="article">
-                <h1 class="title is-3 is-size-4-mobile">About Me</h1>
-                <div class="content">
-                <h3># WHOAMI</h3>
-                <h4>
-                <strong>“Hi, My name is Aswin Krishna”</strong>
-                </h4>
-                <p>Your friendly copycat coder and IT undergrad who loves exploring technologies and figuring out their under hood functioning, also having a slight incline towards cybersecurity.</p>
-                <h3># WHATAMI</h3>
-                <h4>
-                <strong>"I'm a <s style="text-decoration:line-through">robot</s> Human"</strong>
-                </h4>
-                <p>I try to solve problems around me with current knowledge and skillsets. Apart from smashing the keyboard and typing colored text on dark background, I also like pencil drawing as a hobby. Still exploring and learning a lot every day.</p>
-                <h3># WHYAMI</h3>
-                <h4>
-                <strong>“No System Is Safe”</strong>
-                </h4>
-                <p>This website is mainly related to myself and Cybersecurity / Information security. It will help you understand various information in details along with illustration. You’ll also find very detailed walkthrough of various Wargames over here. I’ll share everything that I learn on daily basis so make sure you add this site to your bookmark.</p>
-                <h3># WHEREAMI</h3>
-                <h4>
-                <strong>“I am still learning.” </strong>
-                </h4>
-                <p>I agree that there might be some messed up / unoptimized code in various posts of the website. So if you find any <strong>error / issues </strong> in the article then feel free to point it out <strong>after all we all are learning</strong>. </p>
+                <div class="article-meta is-size-7 is-uppercase level is-mobile">
+                  <div class="level-left">
+                    <span class="level-item">Posted&nbsp; <time datetime="2021-06-27T18:58:09.000Z" title="6/27/2021, 11:58:09 AM">2 years ago</time>
+                    </span>
+                    <span class="level-item">Updated&nbsp; <time datetime="2021-06-27T18:58:09.000Z" title="6/27/2021, 11:58:09 AM">2 years ago</time>
+                    </span>
+                    <span class="level-item">1 minute, 3 seconds read (About 211 words)</span>
+                  </div>
+                </div>
+                  <h1 class="title is-3 is-size-4-mobile">About Me</h1>
+                  <div class="content">
+                  <h3># WHOAMI</h3>
+                  <h4>
+                  <strong>“Hi, My name is Aswin Krishna”</strong>
+                  </h4>
+                  <p>Your friendly copycat coder and IT undergrad who loves exploring technologies and figuring out their under hood functioning, also having a slight incline towards cybersecurity.</p>
+                  <h3># WHATAMI</h3>
+                  <h4>
+                  <strong>"I'm a <s style="text-decoration:line-through">robot</s> Human"</strong>
+                  </h4>
+                  <p>I try to solve problems around me with current knowledge and skillsets. Apart from smashing the keyboard and typing colored text on dark background, I also like pencil drawing as a hobby. Still exploring and learning a lot every day.</p>
+                  <h3># WHYAMI</h3>
+                  <h4>
+                  <strong>“No System Is Safe”</strong>
+                  </h4>
+                  <p>This website is mainly related to myself and Cybersecurity / Information security. It will help you understand various information in details along with illustration. You’ll also find very detailed walkthrough of various Wargames over here. I’ll share everything that I learn on daily basis so make sure you add this site to your bookmark.</p>
+                  <h3># WHEREAMI</h3>
+                  <h4>
+                  <strong>“I am still learning.” </strong>
+                  </h4>
+                  <p>I agree that there might be some messed up / unoptimized code in various posts of the website. So if you find any <strong>error / issues </strong> in the article then feel free to point it out <strong>after all we all are learning</strong>. </p>
                 </div>
                 <div class="addthis_inline_share_toolbox"></div>
                 <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ebea39144403866" defer></script>
@@ -309,9 +318,34 @@
             <!--!-->
             <div class="column-right-shadow is-hidden-widescreen"></div>
           </div>
-          <div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3">
-            <!--!-->
+          <div class="card widget" id="toc" data-type="toc">
+            <div class="card-content">
+              <div class="menu">
+                <h3 class="menu-label">Catalogue</h3>
+                <ul class="menu-list">
+                  <li>
+                    <a class="level is-mobile" href="#About">
+                      <span class="level-left">
+                        <span class="level-item">1</span>
+                        <span class="level-item">About</span>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <style>
+              #toc .menu-list>li>a.is-active+.menu-list {
+                display: block;
+              }
+
+              #toc .menu-list>li>a+.menu-list {
+                display: none;
+              }
+            </style>
+            <script src="/js/toc.js" defer></script>
           </div>
+        </div
         </div>
       </div>
     </section>
