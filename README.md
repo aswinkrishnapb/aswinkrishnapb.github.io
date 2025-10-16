@@ -1,15 +1,16 @@
-# 🧠 Aswin Krishna P.B — Personal Website
+# 🧠 Aswin Krishna P.B — Personal Cyberpunk Website
 
-> ⚡ "Between code and chaos, I build order."  
-> Personal Cybersecurity & Research Portal of **Aswin Krishna P.B (aka deadshell)**
+> ⚡ *“Between code and chaos, I build order.”*  
+> Personal Cybersecurity & Research Portal of **Aswin Krishna P.B (aka deadshell)**  
+> 🌐 **Live Site:** [https://aswinkrishnapb.github.io/](https://aswinkrishnapb.github.io/)
 
 ---
 
 ## 🌐 Overview
 
-This repository hosts my **personal cyberpunk-themed website** — a digital reflection of my work, mindset, and ongoing research in **Offensive & Defensive Security**.
+This repository hosts my **personal cyberpunk-themed website** — a digital reflection of my identity, mindset, and evolving journey in **Offensive & Defensive Cybersecurity**.
 
-Built using **Hexo** + **Icarus Theme**, this site is an evolving cyber-space where I document, experiment, and share my journey as a **Cyber Security Analyst, Pentester, and Researcher**.
+Built with **Hexo** and the **Icarus Theme**, this site serves as a **portfolio**, **research hub**, and **experimental lab** — merging art, philosophy, and technical precision into one cybernetic ecosystem.
 
 ---
 
@@ -18,10 +19,10 @@ Built using **Hexo** + **Icarus Theme**, this site is an evolving cyber-space wh
 | Component | Description |
 |------------|--------------|
 | **Framework** | [Hexo](https://hexo.io) — Fast, simple & powerful blog framework |
-| **Theme** | [Icarus](https://github.com/ppoffice/hexo-theme-icarus) — Clean, responsive theme with modular components |
-| **Styling** | Bulma CSS, Font Awesome, and custom cyberpunk aesthetics |
+| **Theme** | [Icarus](https://github.com/ppoffice/hexo-theme-icarus) — Modular, modern, and fully responsive |
+| **Styling** | Bulma CSS, Font Awesome, custom neon/cyberpunk elements |
 | **Hosting** | [GitHub Pages](https://pages.github.com/) |
-| **Language** | HTML, CSS, JS, Markdown |
+| **Language** | HTML, CSS, JavaScript, Markdown |
 
 ---
 
@@ -29,24 +30,25 @@ Built using **Hexo** + **Icarus Theme**, this site is an evolving cyber-space wh
 
 | Section | Path | Description |
 |----------|------|-------------|
-| **[Root]** | `/` | Home dashboard — digital identity & recent activity |
-| **[Ops]** | `/projects` | Projects & tools developed / contributed by me |
-| **[Intel]** | `/intel` | Blog posts, research notes, write-ups & case studies |
-| **[Lab]** | `/lab` | Experiments, proof-of-concepts, hacking tools, and playgrounds |
-| **[Docs]** | `/docs` | Documentation, tutorials, and technical references |
-| **[About]** | `/about` | Who I am, my journey, and contact information |
+| **[Root]** | `/` | Central hub — identity, featured projects, and latest posts |
+| **[Ops]** | `/ops` | Active operations — tools, projects, and contributions |
+| **[Intel]** | `/intel` | Research notes, threat analysis, write-ups, and blogs |
+| **[Lab]** | `/lab` | Experimental zone — PoCs, attack simulations, and CTFs |
+| **[Docs]** | `/docs` | Technical documentation, tutorials, and methodologies |
+| **[About]** | `/about` | Personal profile, contact links, and mission statement |
 
 ---
 
-## 🧠 About Me
+## 👨‍💻 About Me
 
 **Name:** Aswin Krishna P.B  
-**Handle:** `@aswinkrishnapb` / `deadshell`  
+**Alias:** `deadshell`  
+**Handle:** [@aswinkrishnapb](https://github.com/aswinkrishnapb)  
 **Role:** Cyber Security Analyst & Researcher  
-**Specialization:** VAPT | Red Teaming | Network & Web Security | OSINT | DFIR  
+**Expertise:** VAPT • Red Teaming • Network Security • OSINT • DFIR  
 
-I’m passionate about combining **offensive tactics** and **defensive intelligence** to build resilient systems.  
-This website serves as both my **portfolio** and **training ground** for experiments in **cyber defense, AI-driven security, and gamified learning** (CTFs, simulations, etc).
+Driven by curiosity and precision, I operate at the intersection of **strategy**, **psychology**, and **technology** — blending **offense** and **defense** into a unified discipline.  
+My goal is to create, experiment, and share insights that empower others to think *like attackers* and *defend like strategists*.
 
 ---
 
@@ -55,7 +57,7 @@ This website serves as both my **portfolio** and **training ground** for experim
 To run or modify this site locally:
 
 ```bash
-# 1️⃣ Clone the repo
+# 1️⃣ Clone the repository
 git clone https://github.com/aswinkrishnapb/aswinkrishnapb.github.io.git
 cd aswinkrishnapb.github.io
 
