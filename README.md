@@ -1,4 +1,4 @@
-# 🧠 Aswin Krishna P.B — Personal Cyberpunk Website
+# 🧠 Personal Website
 
 > ⚡ *“Between code and chaos, I build order.”*  
 > Personal Cybersecurity & Research Portal of **Aswin Krishna P.B (aka deadshell)**  
@@ -14,18 +14,15 @@ Built with **Hexo** and the **Icarus Theme**, this site serves as a **portfolio*
 
 ---
 
-## ⚙️ Tech Stack
+## 👨‍💻 About Me
 
-| Component | Description |
-|------------|--------------|
-| **Framework** | [Hexo](https://hexo.io) — Fast, simple & powerful blog framework |
-| **Theme** | [Icarus](https://github.com/ppoffice/hexo-theme-icarus) — Modular, modern, and fully responsive |
-| **Styling** | Bulma CSS, Font Awesome, custom neon/cyberpunk elements |
-| **Hosting** | [GitHub Pages](https://pages.github.com/) |
-| **Language** | HTML, CSS, JavaScript, Markdown |
+**Name:** Aswin Krishna P.B  
+**Alias:** `deadshell`  
+**Handle:** [@aswinkrishnapb](https://github.com/aswinkrishnapb)  
+**Role:** Cyber Security Analyst & Researcher  
+**Expertise:** VAPT • Red Teaming • CTF • OSINT • DFIR  
 
 ---
-
 ## 🧩 Site Structure
 
 | Section | Path | Description |
@@ -39,15 +36,18 @@ Built with **Hexo** and the **Icarus Theme**, this site serves as a **portfolio*
 
 ---
 
-## 👨‍💻 About Me
+## ⚙️ Tech Stack
 
-**Name:** Aswin Krishna P.B  
-**Alias:** `deadshell`  
-**Handle:** [@aswinkrishnapb](https://github.com/aswinkrishnapb)  
-**Role:** Cyber Security Analyst & Researcher  
-**Expertise:** VAPT • Red Teaming • CTF • OSINT • DFIR  
+| Component | Description |
+|------------|--------------|
+| **Framework** | [Hexo](https://hexo.io) — Fast, simple & powerful blog framework |
+| **Theme** | [Icarus](https://github.com/ppoffice/hexo-theme-icarus) — Modular, modern, and fully responsive |
+| **Styling** | Bulma CSS, Font Awesome, custom neon/cyberpunk elements |
+| **Hosting** | [GitHub Pages](https://pages.github.com/) |
+| **Language** | HTML, CSS, JavaScript, Markdown |
 
 ---
+
 
 ## 🧰 Local Development
 
