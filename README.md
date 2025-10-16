@@ -45,10 +45,7 @@ Built with **Hexo** and the **Icarus Theme**, this site serves as a **portfolio*
 **Alias:** `deadshell`  
 **Handle:** [@aswinkrishnapb](https://github.com/aswinkrishnapb)  
 **Role:** Cyber Security Analyst & Researcher  
-**Expertise:** VAPT • Red Teaming • Network Security • OSINT • DFIR  
-
-Driven by curiosity and precision, I operate at the intersection of **strategy**, **psychology**, and **technology** — blending **offense** and **defense** into a unified discipline.  
-My goal is to create, experiment, and share insights that empower others to think *like attackers* and *defend like strategists*.
+**Expertise:** VAPT • Red Teaming • CTF • OSINT • DFIR  
 
 ---
 
