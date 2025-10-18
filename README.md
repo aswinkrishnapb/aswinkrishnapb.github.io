@@ -1,7 +1,6 @@
-# 🧠 Personal Website
+# 👾 Personal Website
 
-> ⚡ *“Between code and chaos, I build order.”*  
-> Personal Cybersecurity & Research Portal of **Aswin Krishna P.B (aka deadshell)**  
+> PersonalWebsite of **Aswin Krishna P.B (aka deadshell)**  
 > 🌐 **Live Site:** [https://aswinkrishnapb.github.io/](https://aswinkrishnapb.github.io/)
 
 ---
