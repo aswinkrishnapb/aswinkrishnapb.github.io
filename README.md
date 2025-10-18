@@ -40,10 +40,10 @@ Built with **Hexo** and the **Icarus Theme**, this site serves as a **portfolio*
 
 | Component | Description |
 |------------|--------------|
-| **Framework** | [Hexo](https://hexo.io) — Fast, simple & powerful blog framework |
-| **Theme** | [Icarus](https://github.com/ppoffice/hexo-theme-icarus) — Modular, modern, and fully responsive |
+| **Framework** | Hexo |
+| **Theme** | Icarus |
 | **Styling** | Bulma CSS, Font Awesome, custom neon/cyberpunk elements |
-| **Hosting** | [GitHub Pages](https://pages.github.com/) |
+| **Hosting** | GitHub Pages |
 | **Language** | HTML, CSS, JavaScript, Markdown |
 
 ---
