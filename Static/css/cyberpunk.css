@@ -929,7 +929,7 @@ a.has-text-dark:focus {
 }
 a.has-text-primary:hover,
 a.has-text-primary:focus {
-  color: #cfc403 !important;
+  color: #1bcf03 !important;
 }
 .has-background-primary {
   background-color: #00ffff !important;
@@ -2385,7 +2385,7 @@ a.list-item {
 .navbar.is-primary .navbar-brand .navbar-link:hover,
 .navbar.is-primary .navbar-brand > a.navbar-item.is-active,
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
-  background-color: #e9db03;
+  background-color: #00ffff;
   color: #121617;
 }
 .navbar.is-primary .navbar-brand .navbar-link::after {
@@ -2413,7 +2413,7 @@ a.list-item {
   .navbar.is-primary .navbar-end > a.navbar-item.is-active,
   .navbar.is-primary .navbar-start .navbar-link.is-active,
   .navbar.is-primary .navbar-end .navbar-link.is-active {
-    background-color: #e9db03;
+    background-color: #00ffff;
     color: #121617;
   }
   .navbar.is-primary .navbar-start .navbar-link::after,
@@ -2423,7 +2423,7 @@ a.list-item {
   .navbar.is-primary .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #e9db03;
+    background-color: #00ffff;
     color: #121617;
   }
   .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
@@ -4282,7 +4282,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 .button.is-primary:hover,
 .button.is-primary.is-hovered {
-  background-color: #f5e703;
+  background-color: #00ffff;
   border-color: transparent;
   color: #121617;
 }
@@ -4297,7 +4297,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 .button.is-primary:active,
 .button.is-primary.is-active {
-  background-color: #e9db03;
+  background-color: #00ffff;
   border-color: transparent;
   color: #121617;
 }
@@ -6797,7 +6797,7 @@ fieldset[disabled] .select select:hover {
 }
 .select.is-primary select:hover,
 .select.is-primary select.is-hovered {
-  border-color: #e9db03;
+  border-color: #00ffff;
 }
 .select.is-primary select:focus,
 .select.is-primary select.is-focused,
@@ -7041,7 +7041,7 @@ fieldset[disabled] .select select:hover {
 }
 .file.is-primary:hover .file-cta,
 .file.is-primary.is-hovered .file-cta {
-  background-color: #f5e703;
+  background-color: #00ffff;
   border-color: transparent;
   color: #121617;
 }
@@ -7053,7 +7053,7 @@ fieldset[disabled] .select select:hover {
 }
 .file.is-primary:active .file-cta,
 .file.is-primary.is-active .file-cta {
-  background-color: #e9db03;
+  background-color: #00ffff;
   border-color: transparent;
   color: #121617;
 }
@@ -9741,7 +9741,7 @@ fieldset[disabled] .select select:hover {
 .hero.is-primary .navbar-link:hover,
 .hero.is-primary a.navbar-item.is-active,
 .hero.is-primary .navbar-link.is-active {
-  background-color: #e9db03;
+  background-color: #00ffff;
   color: #121617;
 }
 .hero.is-primary .tabs a {
@@ -11734,7 +11734,7 @@ figure.highlight .section {
 }
 .cc-window .cc-compliance > .cc-btn:hover,
 .cc-window .cc-compliance > .cc-btn:focus {
-  background-color: #f5e703;
+  background-color: #00ffff;
 }
 .cc-window .cc-compliance > .cc-btn.cc-deny:hover {
   color: #00ffff;
@@ -11747,7 +11747,7 @@ figure.highlight .section {
 }
 .cc-revoke:hover {
   text-decoration: none !important;
-  background-color: #f5e703;
+  background-color: #00ffff;
 }
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
@@ -12074,7 +12074,7 @@ fieldset[disabled] .button:not(input).is-dark.is-inverted:before:before {
 }
 .button:not(input).is-primary:hover:before,
 .button:not(input).is-primary.is-hovered:before {
-  background-color: #f5e703;
+  background-color: #00ffff; 
   color: #121617;
 }
 .button:not(input).is-primary:focus:before,
@@ -12083,7 +12083,7 @@ fieldset[disabled] .button:not(input).is-dark.is-inverted:before:before {
 }
 .button:not(input).is-primary:active:before,
 .button:not(input).is-primary.is-active:before {
-  background-color: #e9db03;
+  background-color: #00ffff;
   color: #121617;
 }
 .button:not(input).is-primary[disabled]:before,
