@@ -30,7 +30,6 @@ Built with **Hexo** and the **Icarus Theme**, this site serves as a **portfolio*
 | **[Ops]** | `/ops` | Active operations — tools, projects, and contributions |
 | **[Intel]** | `/intel` | Research notes, threat analysis, write-ups, and blogs |
 | **[Lab]** | `/lab` | Experimental zone — PoCs, attack simulations, and CTFs |
-| **[Docs]** | `/docs` | Technical documentation, tutorials, and methodologies |
 | **[About]** | `/about` | Personal profile, contact links, and mission statement |
 
 ---
