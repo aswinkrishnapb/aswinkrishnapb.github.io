@@ -1,27 +1,27 @@
 {
     "pages": [
       {
-        "title": "Contact",
+        "title": "About",
         "text": "",
         "link": ""
       },
       {
-        "title": "Download",
+        "title": "Archives",
         "text": "",
         "link": ""
       },
       {
-        "title": "FAQ",
+        "title": "Categories",
         "text": "",
         "link": ""
       },
       {
-        "title": "about",
+        "title": "Docs",
         "text": "",
         "link": ""
       },
       {
-        "title": "community",
+        "title": "Intel",
         "text": "",
         "link": ""
       },
@@ -31,22 +31,27 @@
         "link": ""
       },
       {
-        "title": "",
+        "title": "Lab",
+        "text": "",
+        "link": ""
+      },
+      {
+        "title": "Ops",
+        "text": "",
+        "link": ""
+      },
+      {
+        "title": "Static",
+        "text": "",
+        "link": ""
+      },
+      {
+        "title": "Tags",
         "text": "",
         "link": ""
       },
       {
         "title": "Tools",
-        "text": "",
-        "link": ""
-      },
-      {
-        "title": "docs",
-        "text": "",
-        "link": ""
-      },
-      {
-        "title": "Guide",
         "text": "",
         "link": ""
       }
