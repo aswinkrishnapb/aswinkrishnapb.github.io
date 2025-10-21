@@ -1,4 +1,4 @@
-# Contributing to Aswin's Personal Website
+# Contributing to Personal Website
 
 Thank you for your interest in contributing! 🎉  
 This website is a personal project built and maintained by **Aswin Krishna P.B**, focusing on cybersecurity, red teaming, and hands-on learning.  
