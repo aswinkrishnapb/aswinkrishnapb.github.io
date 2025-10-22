@@ -138,8 +138,20 @@
       #toc .menu-list>li>a+.menu-list {
         display: none;
       }
+
+      #music-player.minimized .card-content {
+        opacity: 0.6;
+        transition: opacity 0.3s ease;
+      }
+
+      #music-player.minimized:hover .card-content {
+        opacity: 1;
+      }
+
+      .controls button {
+        margin-right: 4px;
+      }
     </style>
-    <!--!-->
     <!--!-->
   </head>
   <body class="is-3-column pace-done">
@@ -357,20 +369,21 @@
               </div>
             </div>
             <!-- Music Player Widget -->
-            <div class="card widget" data-type="music-player">
+            <div class="card widget" data-type="music-player" id="music-player">
               <div class="card-content">
                 <h3 class="menu-label">
                   <i class="fas fa-music"></i> Now Playing
                 </h3>
                 <article class="media">
                   <div class="media-content">
-                    <p class="title" id="song-title">Song Title</p>
-                    <div class="controls">
+                    <p class="title is-6 mb-2" id="song-title">Song Title</p>
+                    <div class="controls mt-3">
+                      <button id="prev-song" class="button is-small is-dark">Previous</button>
                       <button id="play-pause" class="button is-small is-info">Play</button>
                       <button id="next-song" class="button is-small is-dark">Next</button>
                     </div>
-                    <div class="progress-container mt-2">
-                      <div id="progress-bar" class="progress is-small is-info" style="width: 0%;"></div>
+                    <div class="progress-container mt-3">
+                      <progress class="progress is-small is-info" id="progress-bar" value="0" max="100"></progress>
                     </div>
                   </div>
                 </article>
