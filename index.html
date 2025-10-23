@@ -99,6 +99,35 @@
         });
       });
     </script>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const searchBtn = document.getElementById("search-btn");
+  const searchBox = document.getElementById("search-box");
+  const searchInput = document.getElementById("search-input");
+
+  // Toggle search input visibility
+  searchBtn.addEventListener("click", () => {
+    if (searchBox.style.display === "none") {
+      searchBox.style.display = "block";
+      searchInput.focus();
+    } else {
+      searchBox.style.display = "none";
+      searchInput.value = "";
+    }
+  });
+
+  // Example: filter content dynamically
+  searchInput.addEventListener("keyup", function(e) {
+    const keyword = e.target.value.toLowerCase();
+    const articles = document.querySelectorAll(".article, .post, .card"); // customize selectors
+
+    articles.forEach(item => {
+      const text = item.textContent.toLowerCase();
+      item.style.display = text.includes(keyword) ? "" : "none";
+    });
+  });
+});
+</script>
     <!-- Inline Script -->
     <script src="/Static/js/main.js" defer=""></script>
     <script src="/Static/js/insight.js" defer=""></script>
@@ -179,15 +208,18 @@
           </div>
           <!--!-->
           <div class="navbar-end">
-            <a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus">
+            <a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/aswinkrishnapb/aswinkrishnapb.github.io">
               <i class="fab fa-github"></i>
             </a>
             <a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;">
               <i class="fas fa-list-ul"></i>
             </a>
-            <a class="navbar-item search" title="Search" href="javascript:;">
+            <a class="navbar-item search" id="search-btn" title="Search" href="javascript:;">
               <i class="fas fa-search"></i>
             </a>
+            <div class="navbar-item" id="search-box" style="display: none;">
+              <input id="search-input" class="input" type="text" placeholder="Type to search..." />
+            </div>
           </div>
         </div>
       </div>
@@ -293,44 +325,44 @@
               </article>
             </div>
             <!-- GET IN TOUCH -->
-            <div class="card" style="transition: opacity 0.3s ease-out 0s, transform 0.3s ease-out 0s; opacity: 1; transform-origin: center top;">
-              <article class="card-content article" role="article">
-                <div class="article-meta is-size-7 is-uppercase level is-mobile">
-                  <div class="level-left">
-                    <span class="level-item">Posted&nbsp; <time datetime="2025-10-23T15:00:00.000Z" title="10/23/2025, 3:00:00 PM">Just now</time>
-                    </span>
-                    <span class="level-item">Updated&nbsp; <time datetime="2025-10-23T15:00:00.000Z" title="10/23/2025, 3:00:00 PM">Just now</time>
-                    </span>
-                    <span class="level-item">Contact Form Section</span>
-                  </div>
+          <div class="card" style="transition: opacity 0.3s ease-out 0s, transform 0.3s ease-out 0s; opacity: 1; transform-origin: center top;">
+            <article class="card-content article" role="article">
+              <div class="article-meta is-size-7 is-uppercase level is-mobile">
+                <div class="level-left">
+                  <span class="level-item">Posted&nbsp; <time datetime="2025-10-23T15:00:00.000Z" title="10/23/2025, 3:00:00 PM">Just now</time>
+                  </span>
+                  <span class="level-item">Updated&nbsp; <time datetime="2025-10-23T15:00:00.000Z" title="10/23/2025, 3:00:00 PM">Just now</time>
+                  </span>
+                  <span class="level-item">Contact Form Section</span>
                 </div>
-                <div class="content">
-                  <h1 id="Get-In-Touch">
-                    <a href="#Get-In-Touch" class="headerlink" title="Get-In-Touch"></a>GET IN TOUCH
-                  </h1>
-                  <p>If you'd like to connect, collaborate, or discuss cybersecurity projects, feel free to send me a message using the form below.</p>
-                  <form id="contact-form" style="margin-top: 1rem;">
-                    <p>
-                      <strong>Your Name:</strong>
-                    </p>
-                    <input type="text" id="name" placeholder="Enter your name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
-                    <p>
-                      <strong>Your Email:</strong>
-                    </p>
-                    <input type="email" id="email" placeholder="Enter your email" required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
-                    <p>
-                      <strong>Subject:</strong>
-                    </p>
-                    <input type="text" id="subject" placeholder="Enter the subject" required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
-                    <p>
-                      <strong>Message:</strong>
-                    </p>
-                    <textarea id="message" placeholder="Type your message..." required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; min-height: 100px;"></textarea>
-                    <button type="submit" class="button is-primary" style="padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer;">Send Message</button>
-                  </form>
-                </div>
-              </article>
-            </div>
+              </div>
+              <div class="content">
+                <h1 id="Get-In-Touch">
+                  <a href="#Get-In-Touch" class="headerlink" title="Get-In-Touch"></a>GET IN TOUCH
+                </h1>
+                <p>If you'd like to connect, collaborate, or discuss cybersecurity projects, feel free to send me a message using the form below.</p>
+                <form id="contact-form" style="margin-top: 1rem;">
+                  <p>
+                    <strong>Your Name:</strong>
+                  </p>
+                  <input type="text" id="name" placeholder="Enter your name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                  <p>
+                    <strong>Your Email:</strong>
+                  </p>
+                  <input type="email" id="email" placeholder="Enter your email" required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                  <p>
+                    <strong>Subject:</strong>
+                  </p>
+                  <input type="text" id="subject" placeholder="Enter the subject" required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                  <p>
+                    <strong>Message:</strong>
+                  </p>
+                  <textarea id="message" placeholder="Type your message..." required style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; min-height: 100px;"></textarea>
+                  <button type="submit" class="button is-primary" style="padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer;">Send Message</button>
+                </form>
+              </div>
+            </article>
+          </div>
           </div>
           <!--!-->
           <div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1">
